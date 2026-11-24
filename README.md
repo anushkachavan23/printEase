@@ -1,20 +1,55 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+**Prerequisites:**  Node.js
 
-# Run and deploy your AI Studio app
+# PrintEase — Campus Document Printing \& Pickup
 
-This contains everything you need to run your app locally.
+PrintEase is a campus document printing platform that allows students to upload documents, customize printing preferences, place print orders, and collect their prints once ready.
 
-View your app in AI Studio: https://ai.studio/apps/e3ee6c3a-b2e7-41a0-85f8-6ddbe24bcaa1
+## Features
+
+- Upload PDF documents and images.
+- Select black \& white or colour printing.
+- Choose paper size and number of copies.
+- View instant printing price estimates.
+- Track existing print orders.
+- QR code and UPI payment support.
+- Notifications when orders are ready.
+- Staff dashboard for managing print orders.
+
+## Technologies Used
+
+- Frontend: React / TypeScript
+- Styling: CSS / Tailwind CSS
+- Backend: \[Add your backend technology\]
+- Database: \[Add your database\]
 
 ## Run Locally
 
-**Prerequisites:**  Node.js
+### Prerequisites
 
+- Node.js
+- npm
 
-1. Install dependencies:
+### Installation
+
+1. Clone the repository.
+2. Install dependencies:
+
    `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
+
+3. Configure your environment variables in `.env.local`.
+
+4. Add your Gemini API key:
+
+   `GEMINI_API_KEY=your_api_key`
+
+5. Start the application:
+
    `npm run dev`
+
+## Project Preview
+
+Visit the deployed PrintEase application to explore its features.
+
+## Author
+
+Anushka Anirudh Chavan
