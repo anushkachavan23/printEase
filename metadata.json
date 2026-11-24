@@ -1,0 +1,6 @@
+{
+  "name": "printEase — Campus Document Printing & Pickup",
+  "description": "Upload PDFs and images, configure paper size, color, and duplex options with live Rupee pricing, pay via UPI, and pick up prints at Print Shop SSPU.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
